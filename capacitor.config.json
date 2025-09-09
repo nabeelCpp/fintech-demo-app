@@ -1,0 +1,15 @@
+{
+  "appId": "com.msakns",
+  "appName": "MSAKNS",
+  "webDir": "dist",
+  "server": {
+    "url": "https://msakns.com/panels",
+    "cleartext": true,
+    "allowNavigation": ["msakns.com", "*.msakns.com"] 
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true
+    }
+  }
+}
