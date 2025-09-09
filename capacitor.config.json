@@ -1,15 +1,13 @@
 {
-  "appId": "com.msakns",
-  "appName": "MSAKNS",
+  "appId": "com.mycellstuff.fintech",
+  "appName": "Fintech",
   "webDir": "dist",
   "server": {
-    "url": "https://msakns.com/panels",
-    "cleartext": true,
-    "allowNavigation": ["msakns.com", "*.msakns.com"] 
+    "url": "https://fintech.mycellstuff.com/login",
+    "cleartext": false,
+    "allowNavigation": ["fintech.mycellstuff.com", "*.mycellstuff.com"]
   },
   "plugins": {
-    "SplashScreen": {
-      "launchAutoHide": true
-    }
+    "SplashScreen": { "launchAutoHide": true }
   }
 }
